@@ -8,14 +8,14 @@ public class ScreenCalculator : MonoBehaviour
     float height;
     float width;
     
-    public  float heighScreen
+    public  float HeightScreen
     { 
         get 
         { 
             return height;
         }
     }
-    public float widthScreen
+    public float WidthScreen
     {
         get
         {
@@ -36,9 +36,5 @@ public class ScreenCalculator : MonoBehaviour
         width = height * Camera.main.aspect;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
